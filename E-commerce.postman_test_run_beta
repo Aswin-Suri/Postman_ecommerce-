@@ -1,0 +1,360 @@
+{
+	"id": "1d66a8e7-5133-4dd1-b027-61818d8b1a75",
+	"name": "E-commerce",
+	"timestamp": "2022-03-11T04:48:28.229Z",
+	"collection_id": "19955294-0215c536-b660-4ffa-931c-8d406d4339f2",
+	"folder_id": 0,
+	"environment_id": "19955294-72b32d5a-ea2a-4c0a-be1c-5cbe5ee80ad5",
+	"totalPass": 27,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8fe14063-6c5b-4bca-8a33-ab6aae31e5e0",
+			"name": "signup",
+			"time": 3752,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				4039,
+				3348,
+				3752
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "58366f30-3b5e-4393-ab24-78da1ba8171f",
+			"name": "login",
+			"time": 6534,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				2913,
+				2906,
+				6534
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4358afdd-8542-4b91-b1a2-4133d09b0a1f",
+			"name": "get all users",
+			"time": 1724,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1330,
+				1592,
+				1724
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7c8a8ad8-c889-451f-9e55-245c828aeb5f",
+			"name": "delete",
+			"time": 712,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				717,
+				716,
+				712
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "00061cec-a538-4c83-8d21-a9da626913a1",
+			"name": "get all products",
+			"time": 2097,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				2068,
+				2071,
+				2097
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "459fc808-8d97-4e04-8f1f-e5dd22cee9ef",
+			"name": "create product",
+			"time": 706,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				707,
+				706,
+				706
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bf0852eb-a873-48af-b31b-5da411101e98",
+			"name": "get product by id",
+			"time": 702,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				699,
+				706,
+				702
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ce90cb56-b8a2-4c40-8c65-60d235562245",
+			"name": "update product by id",
+			"time": 703,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				705,
+				705,
+				703
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ad84b2c0-77aa-4c2c-893b-953c2fe9e6cf",
+			"name": "delete product",
+			"time": 704,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				705,
+				703,
+				704
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 44970,
+	"collection": {
+		"requests": [
+			{
+				"id": "8fe14063-6c5b-4bca-8a33-ab6aae31e5e0",
+				"method": "POST"
+			},
+			{
+				"id": "58366f30-3b5e-4393-ab24-78da1ba8171f",
+				"method": "POST"
+			},
+			{
+				"id": "4358afdd-8542-4b91-b1a2-4133d09b0a1f",
+				"method": "GET"
+			},
+			{
+				"id": "7c8a8ad8-c889-451f-9e55-245c828aeb5f",
+				"method": "DELETE"
+			},
+			{
+				"id": "00061cec-a538-4c83-8d21-a9da626913a1",
+				"method": "GET"
+			},
+			{
+				"id": "459fc808-8d97-4e04-8f1f-e5dd22cee9ef",
+				"method": "POST"
+			},
+			{
+				"id": "bf0852eb-a873-48af-b31b-5da411101e98",
+				"method": "GET"
+			},
+			{
+				"id": "ce90cb56-b8a2-4c40-8c65-60d235562245",
+				"method": "PATCH"
+			},
+			{
+				"id": "ad84b2c0-77aa-4c2c-893b-953c2fe9e6cf",
+				"method": "DELETE"
+			}
+		]
+	}
+}
